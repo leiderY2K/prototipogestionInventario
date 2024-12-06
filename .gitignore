@@ -1,0 +1,17 @@
+# Ignorar node_modules del frontend y backend
+frontend/node_modules/
+
+# Ignorar entornos virtuales de Python
+env/
+backend/venv/
+
+# Ignorar configuraciones sensibles
+.env
+frontend/.env
+backend/.env
+
+# Ignorar contenido de mysql_data, pero no la carpeta en sí
+backend/mysql_data/*
+
+# Ignorar cachés de Python
+backend/__pycache__/
